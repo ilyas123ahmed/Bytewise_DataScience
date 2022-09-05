@@ -13,9 +13,20 @@ Python is a cross-platform programming language, which means that it can run on 
  ## What are variables in python?
  Python is completely object-oriented, and not "statically typed". You do not need to declare variablesbefore using the or declaring their type. Every variable in Python is an object. 
 
-Integer Numbers Integer_number = 7 Float Numbers Float_number = 7.0 String We can declare in
- single or double quotes String_ letters = “Hello” String_ letters = ’Ilyas’ Mixing operators
- between numbers and strings is not supported in python 
+Integer Numbers 
+```pyhton  
+  Integer_number = 7
+```
+Float Numbers 
+```pyhton
+Float_number = 7.0
+```
+String We can declare insingle or double quotes 
+ ```pyhton
+  String_ letters = “Hello”
+  String_ letters = ’Ilyas’
+ ```
+ Mixing operators between numbers and strings is not supported in python 
 
 
 
@@ -24,10 +35,11 @@ Integer Numbers Integer_number = 7 Float Numbers Float_number = 7.0 String We ca
  Lists are very similar to arrays. They can contain any type of variable,and they can contain as many variables as you wish. Lists can also be iterated over in a very simple manner.
 
 ### Example:
-Names = ["John", "Eric", "Jessica"] 
-my_list = [1, 2, 3, ‘a’, ‘b’] We can also declare a list of list.
-MyList= [[1, 2, 3, 4], [12, 13, 23], [10, 20, 30], [11, 22, 33], [12, 24, 36]]
-
+```python
+ Names = ["John", "Eric", "Jessica"] 
+ my_list = [1, 2, 3, ‘a’, ‘b’] We can also declare a list of list.
+ MyList= [[1, 2, 3, 4], [12, 13, 23], [10, 20, 30], [11, 22, 33], [12, 24, 36]]
+```
 We can use the append () function to insert the elements in the list
 my_list = [] my_list.append (1) 
 
@@ -38,11 +50,11 @@ We can change list item
   print(thislist)
 ```
 We can remove element from list 
-`~`python
+```python
  thislist = ["apple", "banana", "cherry"]
  thislist.remove("banana") 
  print(thislist)
-`~`
+```
  We can also perform some of the following functions as well. 
 
 clear() Removes all the elements from the list 
