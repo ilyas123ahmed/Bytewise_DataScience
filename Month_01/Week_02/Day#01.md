@@ -93,7 +93,8 @@ Bitwise operators
 Python Arithmetic Operators
 Arithmetic operators are used with numeric values to perform common mathematical operations:
 
-Operator	Name	            Example	
+| Operator	| Name	          |  Example	|
+| ---       | ---             |  ---      |   
 +	       Addition	          x + y	
 -	       Subtraction	      x - y	
 *	       Multiplication	    x * y	
