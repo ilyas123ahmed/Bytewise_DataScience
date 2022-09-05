@@ -15,18 +15,20 @@ Python is a cross-platform programming language, which means that it can run on 
 
 Integer Numbers 
 ```pyhton  
-  Integer_number = 7
+ integer_number = 7
 ```
 Float Numbers 
 ```pyhton
-Float_number = 7.0
+ float_number = 7.0
 ```
 String We can declare insingle or double quotes 
  ```pyhton
-  String_ letters = “Hello”
-  String_ letters = ’Ilyas’
+  string_ letters = “Hello”
+  string_ letters = ’Ilyas’
  ```
  Mixing operators between numbers and strings is not supported in python 
+
+
 
 
 
