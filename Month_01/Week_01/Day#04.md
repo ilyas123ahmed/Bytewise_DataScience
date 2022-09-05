@@ -32,15 +32,13 @@ We can use the append () function to insert the elements in the list
 my_list = [] my_list.append (1) 
 
 We can change list item
-`~`
- python
+`~`python
   thislist = ["apple", "banana", "cherry"]
   thislist[1] = "blackcurrant"
   print(thislist)
 `~`
 We can remove element from list 
-`~`
-python
+`~`python
  thislist = ["apple", "banana", "cherry"]
  thislist.remove("banana") 
  print(thislist)
