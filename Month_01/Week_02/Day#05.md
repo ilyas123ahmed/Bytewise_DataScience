@@ -2,7 +2,7 @@
 
 ## Quiz GAME
 
-```pyhton
+```python
 print("Welcome to my Computer Quiz!")
 
 playing = input("Do you want to play? ").lower()
@@ -52,13 +52,12 @@ else:
 
 print("You got "+str(score) + " question correct!")
 print("You got "+str((score/5)*100) + "%")
-
 ```
 
 
 ## Guessing Number GAME
 
-```pyhton
+```python
 import random
 
 top_of_range = input("Type a number: ")
@@ -94,9 +93,9 @@ print("You got it in "+str(guesses)+' Guesses')
 ```
 
 
-## Rock Paper Scissor GAME
+## Rock, Paper, Scissor GAME
 
-```pyhton
+```python
 import random
 user_wins = 0
 computer_wins = 0
@@ -134,7 +133,7 @@ print("Have a wounderful day")
 
 ## Choose Your Own Adventure 
 
-```pyhton
+```python
 name = input("Type your name: ")
 print("welcome",name,"to this adventure")
 
@@ -176,7 +175,7 @@ print("Thank You for trying",name)
 
 ## Password Mangment
 
-```pyhton
+```python
 from cryptography.fernet import  Fernet
 # def write_key():
 #     key=Fernet.generate_key()
