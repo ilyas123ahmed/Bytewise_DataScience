@@ -35,6 +35,22 @@ multiplication.multiply(3,3)
 
 
 ## Packages
-Any Python file with a .py extension is a Module in Python.A python package is a collection of such modules along with a __init__.py file.
-A Python package is nothing but a collection of modules along with a __init__.py file. The modules can also be arranged in hierarchy of folders inside a package.
-We can import modules from packages using the dot (.) operator.
+- Any Python file with a .py extension is a Module in Python.A python package is a collection of such modules along with a __init__.py file.In simple words a Python package is nothing but a collection of modules along with a __init__.py file.
+- The modules can also be arranged in hierarchy of folders inside a package.
+- When we adding an empty __init__.py file to the in the folder, Python knows it is a Package.
+- We can import modules from packages using the dot (.) operator.
+
+
+### For example
+Let’s take the datetime module, which has a submodule called date. When datetime is imported, it’ll result in an error, as shown below:
+
+```python
+import datetime
+date.today()
+```
+
+The correct way to use the date module is shown below:
+```python
+from datetime import date
+print date.today()
+```
