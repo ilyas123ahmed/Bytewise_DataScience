@@ -2,11 +2,10 @@
 
 
 ## Modules
-- Any Python file with a .py extension is a Module in Python.
-- Python module is any Python files with a .py extension. It can be imported into python without the .py part.
+- Any Python file with a .py extension is called a Module in Python.It can be imported into python without the .py part.
 - Modules grants us reusability.
 - Module’s contents are accessed with the import statement.
-- Using the module name we can access the function using the dot . operator.
+- Using the module name we can access the function using the dot(.) operator.
 
 ### multiplication.py
 ```python
