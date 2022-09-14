@@ -46,9 +46,9 @@ class Pokemon:
 
 
 if __name__ == "__main__":
-    bulb = Pokemon('Bulbasaur', 'grass', 120)
-    charm = Pokemon('Charmander', 'fire', 110)
-    squi = Pokemon('Squirtle', 'water', 115)
-    squi.battle(charm)
+    bulb = Pokemon('Bulbasaur', 'grass', 220)
+    charm = Pokemon('Charmander', 'fire', 100)
+    squi = Pokemon('Squirtle', 'water', 145)
+    squi.battle(bulb)
     
     ```
