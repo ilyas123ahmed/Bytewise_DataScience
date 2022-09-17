@@ -1,7 +1,7 @@
 #   TIC TAC TOE GAME
 
 ```python
-#borad
+#board
 board=["-","-","-",
        "-","-","-",
        "-","-","-",]
