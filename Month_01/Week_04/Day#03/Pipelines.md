@@ -20,7 +20,6 @@ class QuotetutorialPipeline:
     def process_item(self, item, spider):
         print("Pipelines: "+ item['title'][5])
         return item
-
 ```
 
 ### Terminal Output
