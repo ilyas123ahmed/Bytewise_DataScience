@@ -1,7 +1,8 @@
 # Storing Data in MYSQL Database
 
 ### pipelines.py
-```pyhton
+
+```python
 # Define your item pipelines here
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
@@ -53,7 +54,7 @@ class QuotetutorialPipeline(object):
 
 ### quotes_spider.py
 
-```pyhton
+```python
 import scrapy
 from ..items import QuotetutorialItem
 
@@ -96,5 +97,6 @@ class QuotesSpider(scrapy.Spider):
 
 ### Output of database stored in MYSQL
 ![image](https://user-images.githubusercontent.com/80588277/192128549-8d964db0-1d0a-4d68-b6e7-6b852be875ec.png)
+
 ![image](https://user-images.githubusercontent.com/80588277/192128557-afdb88f8-e5b2-40d7-9290-5b825732afb4.png)
 
