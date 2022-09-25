@@ -107,3 +107,6 @@ DOWNLOADER_MIDDLEWARES = {
 
 ```
 ### Terminal Output
+![image](https://user-images.githubusercontent.com/80588277/192127604-41e910ca-6af6-4bfe-a692-84adf58b8066.png)
+
+![image](https://user-images.githubusercontent.com/80588277/192127653-18d12e39-2ca8-4b7c-a46d-119dfb9b4cab.png)
