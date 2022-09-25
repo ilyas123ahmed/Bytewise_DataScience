@@ -13,9 +13,6 @@ scraped data -> Item containers -> pipelines -> SQL/Mongo databases
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
-from itemadapter import ItemAdapter
-
-
 class QuotetutorialPipeline:
     def process_item(self, item, spider):
         print("Pipelines: "+ item['title'][0])
