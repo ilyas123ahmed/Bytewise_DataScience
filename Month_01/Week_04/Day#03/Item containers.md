@@ -1,7 +1,6 @@
 #   Items Container
 
 - Items are containers used to store data.
-- We can put extracted data directly into our databases but there are some problems.
 - These are temporary locations.
 
 ### quotes_spider.py
@@ -52,3 +51,4 @@ class QuotetutorialItem(scrapy.Item):
 ```
 
 ### Terminal Output 
+![image](https://user-images.githubusercontent.com/80588277/192129428-dbb00a4e-1a0d-4cbc-956a-2c10d3f057df.png)
