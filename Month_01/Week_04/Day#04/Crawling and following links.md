@@ -30,3 +30,7 @@ class QuotesSpider(scrapy.Spider):
         if next_page is not None:
             yield response.follow(next_page, callback=self.parse)
 ```
+
+
+### Random Output
+![image](https://user-images.githubusercontent.com/80588277/192128748-e7caf692-de47-4d9e-a67a-73b32e3c4bc6.png)
