@@ -84,15 +84,7 @@ class QuotesSpider(scrapy.Spider):
         if next_page is not None:
             yield response.follow(next_page, callback=self.parse)
 
-        title = all_div_quotes.css("span.text::text").extract()
-        author= all_div_quotes.css(".author::text").extract()
-        tag = all_div_quotes.css(".tag::text").extract()
-
-        yield {
-            'title': title,
-            'author': author,
-            'tag': tag
-        }
+      
 ```
 
 ### Output of database stored in MYSQL
