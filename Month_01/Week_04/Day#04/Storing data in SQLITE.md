@@ -58,22 +58,6 @@ class QuotesSpider(scrapy.Spider):
 
         items = QuotetutorialItem()
 
-        all_div_quotes = response.css("div.quote")
-
-        for quotes in all_div_quotes:
-            title = quotes.css("span.text::text").extract()
-            author = quotes.css(".author::text").extract()
-            tag = quotes.css(".tag::text").extract()
-
-            items['title'] = title
-            items['author'] = author
-            items['tag'] = tag
-            yield items
-
-        next_page = response.css('li.next a::attr(href)').get()
-        if next_page is not None:
-            yield response.follow(next_page, callback=self.parse)
-
         title = all_div_quotes.css("span.text::text").extract()
         author= all_div_quotes.css(".author::text").extract()
         tag = all_div_quotes.css(".tag::text").extract()
