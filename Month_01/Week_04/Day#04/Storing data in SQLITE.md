@@ -86,5 +86,10 @@ class QuotesSpider(scrapy.Spider):
 ```
 
 ### SQLITE DATABASE OUTPUT
+They create database, table with column automatically. They put out scrap data in those fields.
+
+![image](https://user-images.githubusercontent.com/80588277/192128374-d7802c6f-0356-42b1-97f1-b4e4dad1bb67.png)
+
+
 ![image](https://user-images.githubusercontent.com/80588277/192128357-9c693b03-b698-4ed8-8357-7eb644b09c36.png)
 
