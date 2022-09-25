@@ -85,4 +85,6 @@ class QuotesSpider(scrapy.Spider):
         }
 ```
 
-### S1LITE DATABASE OUTPUT
+### SQLITE DATABASE OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/192128357-9c693b03-b698-4ed8-8357-7eb644b09c36.png)
+
