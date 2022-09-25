@@ -22,3 +22,6 @@ class QuotetutorialPipeline:
         return item
 
 ```
+
+### Terminal Output
+![image](https://user-images.githubusercontent.com/80588277/192129807-0f9729e4-263b-437a-9a60-c609ed374e4d.png)
