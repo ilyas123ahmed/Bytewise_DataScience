@@ -24,3 +24,7 @@ class AmazonSpiderSpider(scrapy.Spider):
             AmazonSpiderSpider.page_number += 1
             yield response.follow(next_page,callback=self.parse)
 ```
+
+
+### Terminal Output
+![image](https://user-images.githubusercontent.com/80588277/192127998-c09e4d28-b1c9-4b83-8c7d-e97a76c34a61.png)
