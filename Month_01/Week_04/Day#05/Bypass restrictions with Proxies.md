@@ -1,4 +1,4 @@
-# Bypass using proxies
+# Bypass Restrictions using proxies
 
 ```python
 # Scrapy settings for amazontutorial project
