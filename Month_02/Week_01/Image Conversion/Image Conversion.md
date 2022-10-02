@@ -24,7 +24,7 @@ print(glob.glob("*.png"))
 
 ```
 
-### Terminal and Project View
+### Terminal and Project View (png to jpg)
 ![image](https://user-images.githubusercontent.com/80588277/193466666-f53de3e8-22fe-4dab-a309-76eed938f449.png)
 
 ![image](https://user-images.githubusercontent.com/80588277/193466701-ddac74ef-cd32-476a-a14f-892131b097c1.png)
@@ -32,7 +32,7 @@ print(glob.glob("*.png"))
 ![image](https://user-images.githubusercontent.com/80588277/193466706-53936005-dbfc-4c2b-bb0f-0dff54808b2c.png)
 
 
-### Terminal and Project View
+### Terminal and Project View (jpg to png)
 
 ![image](https://user-images.githubusercontent.com/80588277/193466731-2bc6ddc7-67d0-4157-98cb-27abaad40709.png)
 ![image](https://user-images.githubusercontent.com/80588277/193466741-e204e810-d1d1-4d93-b496-5a18ac05b883.png)
