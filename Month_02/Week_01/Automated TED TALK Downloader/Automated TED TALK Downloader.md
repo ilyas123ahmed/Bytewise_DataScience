@@ -1,10 +1,62 @@
+# Custom TED TALK Video Downloader
+```python
+# Custom Code to download TED TALK Video
+# getting content of the TED Talk page
+import requests
+# web scraping
+from bs4 import BeautifulSoup
+# Regular Expression pattern matching
+import re
+# for argument parsing
+import sys
+# to save extract data in json format
+import json
+# from urllib.request import urlretrieve #downloading mp4
+
+url = input("Please Enter Your Ted Talk URL : ")
+r = requests.get(url)
+print("Download about to start")
+
+soup = BeautifulSoup(r.content, "html.parser")
+next_data_script = soup.find(id="__NEXT_DATA__")
+
+data_json = next_data_script.string
+player_data = json.loads(data_json)['props']['pageProps']['videoData']['playerData']
+url_content = json.loads(player_data)['resources']['h264'][0]['file']
+print(url_content)
+mp4_response = requests.get(url_content)
+
+user_name = input("Please Enter The File Name : ")
+
+file_name = user_name+'automated_Video.mp4'
+with open(file_name,'wb') as f:
+    f.write(mp4_response.content)
+```
+
+### Terminal View
+
+
+
+### Project View
+
+
+
+
 # Automated TED TALK Video Downloader
 ```python
+# Automated TED TALK Downlod Video
+#getting content of the TED Talk page
 import requests
+#web scraping
 from bs4 import BeautifulSoup
+#Regular Expression pattern matching
 import re
+#for argument parsing
 import sys
+# from urllib.request import urlretrieve #downloading mp4
 
+
+# Exception Handling
 if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
@@ -38,6 +90,9 @@ user_name = input("Please Enter The File Name : ")
 file_name = user_name+'automated_Video.mp4'
 with open(file_name,'wb') as f:
     f.write(r.content)
+
+print("Download Process finished")
+
 ```
 
 ### Terminal View
