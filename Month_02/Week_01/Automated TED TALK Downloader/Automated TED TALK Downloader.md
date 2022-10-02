@@ -1,55 +1,28 @@
-# AUTOMATED TED TALK Downloader 
+# Custom TED TALK Video Downloader 
 
 ```python
-
-import requests #getting content of the TED Talk page
-
-from bs4 import BeautifulSoup #web scraping
-
-import re #Regular Expression pattern matching
-
-# from urllib.request import urlretrieve #downloading mp4
-
-import sys #for argument parsing
-
-# Exception Handling
-
-# if len(sys.argv) > 1:
-#     url = sys.argv[1]
-# else:
-#     sys.exit("Error: Please enter the TED Talk URL")
-
-#url = "https://www.ted.com/talks/jia_jiang_what_i_learned_from_100_days_of_rejection"
-
-url = "https://www.ted.com/talks/ken_robinson_says_schools_kill_creativity"
-
+import requests
+from bs4 import BeautifulSoup
+import re
+import sys
+import json
+# Automated Custom Code
+url = input("Please Enter Your Ted Talk URL : ")
 r = requests.get(url)
-
 print("Download about to start")
 
-soup = BeautifulSoup(r.content, features="lxml")
-result=''
-for val in soup.findAll("script"):
-    if(re.search("pageProps",str(val))) is not None:
-        result = str(val)
-result_mp4 = re.search("(?P<url>https?://[^\s]+)(mp4)", result).group("url")
+soup = BeautifulSoup(r.content, "html.parser")
+next_data_script = soup.find(id="__NEXT_DATA__")
 
-mp4_url = result_mp4.split('"')[0]
+data_json = next_data_script.string
+player_data = json.loads(data_json)['props']['pageProps']['videoData']['playerData']
+url_content = json.loads(player_data)['resources']['h264'][0]['file']
+print(url_content)
+mp4_response = requests.get(url_content)
 
-print("Downloading video from ..... " + mp4_url)
+user_name = input("Please Enter The File Name : ")
 
-file_name = mp4_url.split("/")[len(mp4_url.split("/"))-1].split('?')[0]
-
-print("Storing video in ..... " + file_name)
-
-
-r = requests.get(mp4_url)
-
+file_name = user_name+'.mp4'
 with open(file_name,'wb') as f:
-  f.write(r.content)
-
-# Alternate method
-#urlretrieve(mp4_url,file_name)
-
-print("Download Process finished")
+    f.write(mp4_response.content)
 ```
