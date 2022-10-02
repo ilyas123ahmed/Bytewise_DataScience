@@ -26,3 +26,54 @@ file_name = user_name+'.mp4'
 with open(file_name,'wb') as f:
     f.write(mp4_response.content)
 ```
+### Terminal View
+
+### Project View
+
+
+
+# Automated TED TALK Video Downloader
+```python
+import requests
+from bs4 import BeautifulSoup
+import re
+import sys
+
+if len(sys.argv) > 1:
+    url = sys.argv[1]
+else:
+    sys.exit("Error: Please enter the TED Talk URL")
+
+
+url = input("Please Enter Your Ted Talk URL : ")
+r = requests.get(url)
+
+print("Download about to start")
+
+soup = BeautifulSoup(r.content, features="lxml")
+result=''
+for val in soup.findAll("script"):
+    if(re.search("resources",str(val))) is not None:
+        result = str(val)
+
+result_mp4 = re.search("(?P<url>https?://[^\s]+)(mp4)", result).group("url")
+result_mp4=result_mp4+'mp4'
+mp4_url = result_mp4.split('"')[0]
+
+print("Downloading video from : " + result_mp4)
+file_name = mp4_url.split("/")[len(mp4_url.split("/"))-1].split('?')[0]
+
+print("Storing video in : " + file_name)
+
+
+r = requests.get(mp4_url)
+
+user_name = input("Please Enter The File Name : ")
+file_name = user_name+'automated_Video.mp4'
+with open(file_name,'wb') as f:
+    f.write(r.content)
+```
+
+### Terminal View
+
+### Project View
