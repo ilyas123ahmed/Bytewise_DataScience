@@ -35,10 +35,10 @@ with open(file_name,'wb') as f:
 
 ### Terminal View
 
-
+![image](https://user-images.githubusercontent.com/80588277/193449083-170591b9-7df3-48e5-8387-f77883163351.png)
 
 ### Project View
-
+![image](https://user-images.githubusercontent.com/80588277/193449064-c30fc948-3f9e-42cf-8733-ba9e01146c55.png)
 
 
 
