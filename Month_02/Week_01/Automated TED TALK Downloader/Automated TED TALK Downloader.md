@@ -75,5 +75,8 @@ with open(file_name,'wb') as f:
 ```
 
 ### Terminal View
+![image](https://user-images.githubusercontent.com/80588277/193448554-f97735d7-1e00-4779-85a0-913ccd5624e5.png)
+
 
 ### Project View
+![image](https://user-images.githubusercontent.com/80588277/193448584-6609426d-cdb9-4fb5-b2d6-b193ea1f3eb6.png)
