@@ -87,5 +87,17 @@ server.quit()
 
 
 ### TERMINAL OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/193440725-2f3f4161-fcac-4034-a5d4-c1250861b8d0.png)
+
+![image](https://user-images.githubusercontent.com/80588277/193440746-c85ffe59-3352-4cde-a7a1-60cf7afb9caa.png)
+
+![image](https://user-images.githubusercontent.com/80588277/193440761-5af4e06c-b3a4-4f0d-aa2b-7dcf15616415.png)
+
 
 ### GMAIL INBOX OUTPUT
+
+![image](https://user-images.githubusercontent.com/80588277/193440779-aca5cd72-7e45-43a1-bc30-682491ff9a78.png)
+
+![image](https://user-images.githubusercontent.com/80588277/193440795-2fe81385-a037-421d-b896-f94a516ebb3c.png)
+
+![image](https://user-images.githubusercontent.com/80588277/193440803-b24a5418-5424-4f28-bc05-6c7ab924619f.png)
