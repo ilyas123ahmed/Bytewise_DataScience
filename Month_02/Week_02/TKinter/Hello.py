@@ -11,3 +11,7 @@ myLabel.pack()
 
 root.mainloop()
 ```
+
+### OUTPUT WINDOW
+![image](https://user-images.githubusercontent.com/80588277/195849857-6120c707-cf35-4785-8f2e-cae5faca5234.png)
+
