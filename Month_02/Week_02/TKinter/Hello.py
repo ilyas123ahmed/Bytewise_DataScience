@@ -1,4 +1,4 @@
-'''python
+```python
 from tkinter import *
 
 root = Tk()
@@ -10,6 +10,6 @@ myLabel.pack()
 
 
 root.mainloop()
-'''
+```
 
 
