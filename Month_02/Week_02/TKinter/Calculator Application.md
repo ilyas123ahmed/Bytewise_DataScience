@@ -121,3 +121,4 @@ root.mainloop()
 ```
 
 ### OUTPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195874326-ba0ac2c7-f303-4028-a6e4-530bdacab2a0.png)
