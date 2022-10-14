@@ -16,4 +16,5 @@ root.mainloop()
 ```
 
 ### OUTPUT WINDOW
+![image](https://user-images.githubusercontent.com/80588277/195855872-eda2cea0-d0bb-4a2c-a7ff-692e1467b0c8.png)
 
