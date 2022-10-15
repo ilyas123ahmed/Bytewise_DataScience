@@ -36,3 +36,4 @@ mainloop()
 ```
 
 ### OUTPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195968657-011ef6ef-78d5-4a3c-bab9-4b661b8a67bb.png)
