@@ -24,3 +24,4 @@ mainloop()
 ```
 
 ### OUTPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195968962-5a64075d-958b-4482-8ffa-c1d3de7d5cb3.png)
