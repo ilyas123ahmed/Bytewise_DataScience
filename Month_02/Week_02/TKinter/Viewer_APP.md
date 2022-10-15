@@ -66,3 +66,4 @@ root.mainloop()
 ```
 
 ### OUYPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195963463-925e4fc7-7e91-4d2b-a702-30f7f5b9a109.png)
