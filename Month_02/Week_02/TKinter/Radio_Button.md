@@ -6,6 +6,9 @@ root = Tk()
 root.title('Learn To Code at Bytewise')
 root.iconbitmap('D:\Python\GUI_Data_Science\icon.ico')
 
+#r = IntVar()
+#r.set("2")
+
 TOPPINGS = [
 	("Pepperoni", "Pepperoni"),
 	("Cheese", "Cheese"),
