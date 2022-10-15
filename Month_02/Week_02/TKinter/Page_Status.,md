@@ -77,3 +77,4 @@ status.grid(row=2, column=0, columnspan=3, sticky=W + E)
 root.mainloop()
 ```
 ### OUTPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195963968-dea88d27-87a9-40c5-8e0c-a41365605382.png)
