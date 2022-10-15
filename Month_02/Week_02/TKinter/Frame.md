@@ -17,3 +17,4 @@ root.mainloop()
 ```
 
 ### OUTPUT TERMINAL
+![image](https://user-images.githubusercontent.com/80588277/195964462-39b98744-41f7-4bba-962a-81aa52964bd7.png)
