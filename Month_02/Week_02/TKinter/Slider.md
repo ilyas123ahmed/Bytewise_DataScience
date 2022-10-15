@@ -28,3 +28,4 @@ root.mainloop()
 ```
 
 ### OUTPUT TERMIANL
+![image](https://user-images.githubusercontent.com/80588277/195993851-1a416f49-3d13-454d-8721-4f9ecad0c9da.png)
