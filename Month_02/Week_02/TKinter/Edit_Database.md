@@ -298,3 +298,7 @@ root.mainloop()
 ```
 
 ### OUTPUT TERMINAL
+
+![image](https://user-images.githubusercontent.com/80588277/196028615-e05e2d7d-ebc0-4eac-ad5d-cc4d48583ba3.png)
+
+![image](https://user-images.githubusercontent.com/80588277/196028598-cbfa31cb-4422-40d1-b91c-d278619ac1c6.png)
