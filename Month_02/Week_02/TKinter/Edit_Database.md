@@ -1,4 +1,4 @@
-```pyhton
+```python
 from tkinter import *
 from PIL import ImageTk, Image
 import sqlite3
