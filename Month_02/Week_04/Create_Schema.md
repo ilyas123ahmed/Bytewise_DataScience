@@ -103,3 +103,33 @@ from students;
 
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200515392-058913e0-39c0-4838-b8ef-fe1a0bb63f1d.png)
+
+
+# Write a order by query to display table in ascending and descending order
+```sql
+select student_id,name
+from students
+order by name;
+```
+
+```sql
+select *
+from students
+order by student_id desc;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200516035-36003ff8-6e12-4494-9fcc-440571c1083d.png)
+![image](https://user-images.githubusercontent.com/80588277/200516780-8bf79c4d-773e-466c-b88d-a1ea1a756038.png)
+
+# Write a limit query to display table
+```sql
+select *
+from students
+order by student_id desc
+limit 3;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200518300-a3dcefbb-458f-4e01-9039-1cb73bb24999.png)
+
