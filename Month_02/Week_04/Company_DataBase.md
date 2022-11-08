@@ -314,3 +314,4 @@ WHERE employee.emp_id IN (SELECT works_with.emp_id
 
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200585941-915d0f03-fd9e-48d8-92da-6d3c5abfbb95.png)
+
