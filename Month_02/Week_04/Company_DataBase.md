@@ -197,3 +197,120 @@ from employee;
 ```
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200558407-f3d7e35e-0d37-463e-9080-aea1d000dc17.png)
+
+
+# Write a query to change the name of column
+```sql
+select first_name AS forname,last_name as sirname
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200558954-7b532008-3538-43b7-ae7e-5457a518e0ff.png)
+
+
+# Write a query to find all different genders
+```sql
+select distinct sex
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200559347-587e42a2-3d4d-4c11-82d8-7d44d02b9ec1.png)
+
+
+# Write a query to find the number of employees
+```sql
+select count(emp_id)
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200564365-51c7b983-5d57-4837-adfd-05c0723ead0e.png)
+
+
+# Write a query to find the average of all the employee's salary
+```sql
+select AVG(salary)
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200565863-12b2262a-225d-4d0f-961d-d6a1fd2b5703.png)
+
+
+# Write a query to find the sum of all the employee's salary
+```sql
+select sum(salary)
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200566816-5e08be59-e309-4d12-9221-a87482194339.png)
+
+
+# Write a query to find the count the number of male and female
+```sql
+select count(sex),sex
+from employee
+group by sex;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200567591-e488ccee-a368-468c-9927-f03e5db31c4c.png)
+
+
+# Write a query to find a client who are an LLC
+```sql
+select *
+from client
+WHERE client_name like '%LLC';
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200570478-fb936394-cc7b-4a30-859d-994efe227e63.png)
+
+
+# Write a query to find any emplyee who born in october
+```sql
+select *
+from employee
+WHERE birth_day like '____-10%';
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200573078-7a0ed1d4-6e13-41cc-b993-375501692651.png)
+
+
+# Write a query to find the list of emplyee and branch names
+```sql
+select first_name
+from employee
+union
+select branch_name
+from branch;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200574125-3cf19ecb-3c48-4517-ae86-61ec27e2f48c.png)
+
+
+# Write a query to implement join 
+```sql
+-- Add the extra branch
+INSERT INTO branch VALUES(4, "Buffalo", NULL, NULL);
+
+SELECT employee.emp_id, employee.first_name, branch.branch_name
+FROM employee
+JOIN branch    -- LEFT JOIN, RIGHT JOIN
+ON employee.emp_id = branch.mgr_id;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200582503-06fb02d0-88be-4e5d-9c79-2878d3eaaf3b.png)
+
+
+
+# Write a query to find names of all employees who have sold over 50,000 
+```sql
+SELECT employee.first_name, employee.last_name
+FROM employee
+WHERE employee.emp_id IN (SELECT works_with.emp_id
+                          FROM works_with
+                          WHERE works_with.total_sales > 50000);
+
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200585941-915d0f03-fd9e-48d8-92da-6d3c5abfbb95.png)
