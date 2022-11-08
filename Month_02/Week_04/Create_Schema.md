@@ -73,3 +73,33 @@ values
  ## OUTPUT
  ![image](https://user-images.githubusercontent.com/80588277/200499037-11196496-b291-460e-b715-69522b55b675.png)
 
+
+# Write a query to update a table
+```sql
+UPDATE students 
+SET major = 'Bio'
+where major = 'Biology';
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200510553-cfbd00d3-c62f-4ee9-bb0a-572668ecf76e.png)
+
+# Write a query to delete a table or something from a table
+```sql
+delete FROM students
+where student_id = 5;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200513777-cdd58b62-5a67-40e1-a21c-09c86db759e2.png)
+
+
+
+# Write a query to select a specific column from table
+```sql
+select student_id,name
+from students;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200515392-058913e0-39c0-4838-b8ef-fe1a0bb63f1d.png)
