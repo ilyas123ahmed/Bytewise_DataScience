@@ -41,7 +41,7 @@ describe students;
 ```sql
 ALTER TABLE students add
 (
-  gpa decimal
+  gpa decimal(3,2)
 );
 ```
 
