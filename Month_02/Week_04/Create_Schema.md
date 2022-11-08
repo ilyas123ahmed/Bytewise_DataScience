@@ -47,3 +47,13 @@ ALTER TABLE students add
 
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200494732-cf29491f-0bfe-4628-bd79-c155a3c0311b.png)
+
+
+# Write a query to alter specific column
+```sql
+alter table students drop column gpa;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200495275-73f6416f-08ab-466c-b9f3-ebb4a7f0cf15.png)
+
