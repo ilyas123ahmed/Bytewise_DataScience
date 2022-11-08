@@ -140,3 +140,60 @@ INSERT INTO works_with VALUES(102, 406, 15000);
 INSERT INTO works_with VALUES(105, 406, 130000);
 ```
 
+
+# Write a query to find all Employees
+```sql
+select * 
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200556111-41702a74-cd00-4802-8c20-b22bd541dc27.png)
+
+
+# Write a query to find all Clients
+```sql
+select * 
+from client;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200556456-90dd6174-c76a-4dd7-8707-48e8c37ef344.png)
+
+
+
+# Write a query to find all employees order by salary
+```sql
+select * 
+from employee
+order by salary;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200556808-d5358239-aa8e-4a28-ba62-fc7d9ddf8f95.png)
+
+
+# Write a query to find all employees order by sex  and then by name
+```sql
+select * 
+from employee
+order by sex,first_name,last_name;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200557266-ecedd598-f378-4c60-9572-914ce15c765e.png)
+
+
+# Write a query to find first 5 employees
+```sql
+select * 
+from employee
+limit 5;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200557975-67bb0371-99f9-48bc-ac30-1ef49b44936c.png)
+
+
+# Write a query to find first and last name of employees
+```sql
+select first_name,last_name
+from employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200558407-f3d7e35e-0d37-463e-9080-aea1d000dc17.png)
