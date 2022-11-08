@@ -35,3 +35,15 @@ describe students;
 ```
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200487867-9fd0dbb3-4cf6-43bd-9342-c885a6774ae2.png)
+
+
+# Write a query to alter a table
+```sql
+ALTER TABLE students add
+(
+  gpa decimal
+);
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/200494732-cf29491f-0bfe-4628-bd79-c155a3c0311b.png)
