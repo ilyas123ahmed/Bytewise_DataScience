@@ -57,3 +57,19 @@ alter table students drop column gpa;
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200495275-73f6416f-08ab-466c-b9f3-ebb4a7f0cf15.png)
 
+
+# Write a query to insert values in table
+```sql
+select * from students;
+insert into students (student_id, name ,major)
+values
+ (1, 'ILYAS','Data Science'),
+ (2, 'Ahmad','Data Engineer'),
+ (3, 'Asad','Biology'),
+ (4, 'Arham','Math'),
+ (5, 'Tabish','Social Science');
+ ```
+ 
+ ## OUTPUT
+ ![image](https://user-images.githubusercontent.com/80588277/200499037-11196496-b291-460e-b715-69522b55b675.png)
+
