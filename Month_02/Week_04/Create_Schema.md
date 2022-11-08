@@ -27,3 +27,10 @@ describe students;
 
 ## OUTPUT
 ![image](https://user-images.githubusercontent.com/80588277/200491457-5b8fdbec-18ac-4346-8d71-0566e74b1d04.png)
+
+
+# Write a query to delete table from schema
+```sql
+ DROP table students;
+```
+## OUTPUT
