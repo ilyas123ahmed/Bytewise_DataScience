@@ -135,3 +135,21 @@ from company.employee;
 
 ![image](https://user-images.githubusercontent.com/80588277/203954186-349f58d9-e35f-4960-80a4-e12c7a49a3ec.png)
 
+
+# write a query to locate database files   
+```sql
+show variables where Variable_Name like '%dir';
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/203979023-56b98087-5772-401a-b3ca-8d7c653739ed.png)
+
+
+# write a query to create backups of database files   
+## OUTPUT
+
+![image](https://user-images.githubusercontent.com/80588277/203986940-15d8bf0e-c72c-4e87-87c1-45d0b67470c5.png)
+
+
+![image](https://user-images.githubusercontent.com/80588277/203986885-db9bf2d7-34ad-4701-a18a-2657b06c63e3.png)
+
+![image](https://user-images.githubusercontent.com/80588277/203987321-7a4ad623-e58e-4f89-b815-affce2fa63c7.png)
