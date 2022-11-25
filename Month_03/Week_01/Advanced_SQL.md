@@ -103,3 +103,35 @@ from branch;
 ![image](https://user-images.githubusercontent.com/80588277/203922791-fb83b8c9-e186-4331-a802-b18157f684b8.png)
 
 ![image](https://user-images.githubusercontent.com/80588277/203922877-bacfc7fa-6a60-4469-b97c-8c36292fe228.png)
+
+
+# write a query to create new table    
+```sql
+create table new_table
+like company.employee;
+
+insert new_table
+select *
+from employee
+where emp_id < 106;
+```
+
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/203947744-2c536c46-0bef-47e2-8033-63836ab92cfb.png)
+
+
+# write a query to update a record    
+```sql
+update company.employee
+set salary = 5000000
+where emp_id = 100;
+
+
+select *
+from company.employee;
+```
+## OUTPUT
+![image](https://user-images.githubusercontent.com/80588277/203954121-23e89c29-6280-41d9-8717-e2974eec0973.png)
+
+![image](https://user-images.githubusercontent.com/80588277/203954186-349f58d9-e35f-4960-80a4-e12c7a49a3ec.png)
+
